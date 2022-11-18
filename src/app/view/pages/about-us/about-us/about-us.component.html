@@ -1,0 +1,55 @@
+<p>about-us works!</p>
+<div class="boldtext text-center mt-3">
+    <p>{{timeLeft}} Time Left.........</p>
+</div>
+
+<div class="boldtext text-center mt-3" >
+    <p>{{timerdata}}</p>
+</div>
+<hr>
+<div class="text-center">
+  <h1>custome pipe</h1>
+<div>
+  {{ words | stringpipe:[20, '...'] }}
+</div>
+</div>
+<hr>
+<div class="text-center">
+<h1>custome directive</h1>
+<div appChangecolor> change color</div>  
+<div appChangecolor tcolor="red" bcolor="black" tsize="30px"> change text color</div>  
+</div>
+
+
+<hr>
+<div class="text-center">
+  <h1>Uppercase</h1>
+    <p>{{num3}}</p>
+</div>
+<hr>
+      
+  <div class="text-center">
+      <h3>data-Bind</h3>
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Id</th>
+              <th>Name</th>
+              <th>LastName</th>
+              <th>Mobile</th>
+              <th>Gmail</th>
+              <th>Address</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let user of userData">
+              <td>{{user.id}}</td>
+              <td>{{user.name}}</td>
+              <td>{{user.lastName}}</td>
+              <td>{{user.phone}}</td>
+              <td>{{user.gmail}}</td>
+              <td>{{user.add}}</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>

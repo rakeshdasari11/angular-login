@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "id": 1,
+      "title": "json-server",
+      "author": "typicode"
+    }
+  ],
+  "search": [
+    {
+      "id": 1,
+     "username": "abc",
+     "phone": 8007909716,
+     "email": "abc@gmail.com",
+     "gender": "Male"
+    }
+    
+  ],
+  "comments": [
+    {
+      "id":1,
+      "name":"abc",
+      "lastName":"abc",
+      "phone":8007909716,
+      "gmail":"abc@gmail.com",
+      "add":"mumbai"
+    },
+    {
+      "id":2,
+      "name":"pqr",
+      "lastName":"pqr",
+      "phone":888888888,
+      "gmail":"pqr@gmail.com",
+      "add":"mumabi"
+    },
+    {
+      "id":3,
+      "name":"abc",
+      "lastName":"abc",
+      "phone":8007909716,
+      "gmail":"abc@gmail.com",
+      "add":"mumbai"
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
+}
